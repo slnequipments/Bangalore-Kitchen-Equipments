@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Bangalore Kitchen Equipments">
+  <rect width="64" height="64" rx="10" fill="#0f3460"/>
+  <path d="M12 43h40v8H12zM17 19h30v24H17zM23 13h18v6H23z" fill="none" stroke="#ffffff" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M24 29h16M24 36h16" stroke="#e74c3c" stroke-width="4" stroke-linecap="round"/>
+</svg>

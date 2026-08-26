@@ -1,9 +1,13 @@
 {
-  "$schema": "node_modules/wrangler/config-schema.json",
+  "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "bangalore-kitchen",
-  "compatibility_date": "2026-07-15",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-07-28",
   "assets": {
-    "directory": "./public"
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
   },
   "observability": {
     "enabled": true
